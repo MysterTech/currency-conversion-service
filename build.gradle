@@ -38,5 +38,6 @@ test {
 	useJUnitPlatform()
 }
 
+project.buildDir = './target'
 bootJar.enabled=true
 jar.enabled=true
