@@ -7,7 +7,7 @@ plugins {
 group = 'com.mystertech'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '15'
-project.buildDir = '/target'
+project.buildDir = './target'
 
 repositories {
 	mavenCentral()
@@ -38,3 +38,5 @@ test {
 	useJUnitPlatform()
 }
 
+bootJar.enabled=true
+jar.enabled=true
